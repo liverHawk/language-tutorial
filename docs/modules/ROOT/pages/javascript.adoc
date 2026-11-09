@@ -1,0 +1,100 @@
+= JavaScript チュートリアル
+
+- 登場年: 1995
+- 得意なこと: Webブラウザで動く言語として始まり、今はサーバー（Node.js）でも主流
+- 公式／主要サイト: https://developer.mozilla.org/
+- 難易度目安: ★1
+
+== 0. この言語について
+Webページに動きをつけるために生まれた言語。ブラウザさえあればすぐ動かせて、学び始めのハードルが低い。今では Node.js でサーバー側やツールも書けるため、Web開発ではほぼ必須になっている。
+
+== 1. Hello World と実行方法
+ブラウザの開発者コンソール、または Node.js を入れて `node hello.js` で実行する。
+
+[source,javascript]
+----
+console.log("Hello, World!");
+----
+
+== 2. 変数と型
+`let` は再代入できる変数、`const` は再代入できない変数。型宣言は不要。
+
+[source,javascript]
+----
+let name = "Ayane";  // 文字列
+const count = 3;     // 数値
+let ratio = 0.5;     // 数値（整数と小数の区別はない）
+console.log(name, count, ratio);
+----
+
+== 3. 条件分岐と繰り返し
+
+[source,javascript]
+----
+for (let i = 1; i < 4; i++) {
+  if (i % 2 === 0) {
+    console.log(i, "は偶数");
+  } else {
+    console.log(i, "は奇数");
+  }
+}
+----
+
+※ `==` ではなく `===` を使うのが今の標準。型変換による意図しない一致を防げる。
+
+== 4. 関数
+`function` でも、アロー関数 `=>` でも書ける。
+
+[source,javascript]
+----
+const greet = (name) => {
+  return `こんにちは、${name}さん`;
+};
+
+console.log(greet("Ayane"));
+----
+
+== 5. コレクション
+配列とオブジェクトが基本。
+
+[source,javascript]
+----
+const langs = ["JavaScript", "Rust", "Go"];
+langs.push("Zig");
+
+const years = { JavaScript: 1995, Rust: 2010 };
+console.log(langs);
+console.log(years.JavaScript);
+----
+
+== 6. エラー処理
+`try` / `catch` で例外を捕まえる。
+
+[source,javascript]
+----
+try {
+  throw new Error("何か起きました");
+} catch (e) {
+  console.log("エラー:", e.message);
+}
+----
+
+== 7. 仕上げ: FizzBuzz
+
+[source,javascript]
+----
+for (let i = 1; i <= 15; i++) {
+  if (i % 15 === 0) {
+    console.log("FizzBuzz");
+  } else if (i % 3 === 0) {
+    console.log("Fizz");
+  } else if (i % 5 === 0) {
+    console.log("Buzz");
+  } else {
+    console.log(i);
+  }
+}
+----
+
+== 次に読むもの
+- MDN JavaScript ガイド: https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide

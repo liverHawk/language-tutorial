@@ -1,0 +1,46 @@
+= すべてのプログラミング言語のチュートリアル
+Ayane
+:doctype: book
+:toc: left
+:toclevels: 2
+:icons: font
+:source-highlighter: rouge
+:lang: ja
+
+== はじめに
+
+すべてのプログラミング言語のチュートリアルを目指す一冊。章立ては全言語共通で、仕上げ課題は FizzBuzz から始まる。
+進め方と章立てのルールは、本書の最後にあるテンプレートの章を参照。
+
+include::modules/ROOT/pages/python.adoc[leveloffset=+1]
+include::modules/ROOT/pages/javascript.adoc[leveloffset=+1]
+include::modules/ROOT/pages/bqn.adoc[leveloffset=+1]
+include::modules/ROOT/pages/c.adoc[leveloffset=+1]
+include::modules/ROOT/pages/cpp.adoc[leveloffset=+1]
+include::modules/ROOT/pages/crystal.adoc[leveloffset=+1]
+include::modules/ROOT/pages/csharp.adoc[leveloffset=+1]
+include::modules/ROOT/pages/dart.adoc[leveloffset=+1]
+include::modules/ROOT/pages/gleam.adoc[leveloffset=+1]
+include::modules/ROOT/pages/go.adoc[leveloffset=+1]
+include::modules/ROOT/pages/grain.adoc[leveloffset=+1]
+include::modules/ROOT/pages/haskell.adoc[leveloffset=+1]
+include::modules/ROOT/pages/hylo.adoc[leveloffset=+1]
+include::modules/ROOT/pages/jakt.adoc[leveloffset=+1]
+include::modules/ROOT/pages/java.adoc[leveloffset=+1]
+include::modules/ROOT/pages/julia.adoc[leveloffset=+1]
+include::modules/ROOT/pages/kotlin.adoc[leveloffset=+1]
+include::modules/ROOT/pages/lua.adoc[leveloffset=+1]
+include::modules/ROOT/pages/mojo.adoc[leveloffset=+1]
+include::modules/ROOT/pages/nim.adoc[leveloffset=+1]
+include::modules/ROOT/pages/odin.adoc[leveloffset=+1]
+include::modules/ROOT/pages/php.adoc[leveloffset=+1]
+include::modules/ROOT/pages/r.adoc[leveloffset=+1]
+include::modules/ROOT/pages/ruby.adoc[leveloffset=+1]
+include::modules/ROOT/pages/rust.adoc[leveloffset=+1]
+include::modules/ROOT/pages/scala.adoc[leveloffset=+1]
+include::modules/ROOT/pages/swift.adoc[leveloffset=+1]
+include::modules/ROOT/pages/typescript.adoc[leveloffset=+1]
+include::modules/ROOT/pages/uiua.adoc[leveloffset=+1]
+include::modules/ROOT/pages/v.adoc[leveloffset=+1]
+include::modules/ROOT/pages/zig.adoc[leveloffset=+1]
+include::modules/ROOT/pages/template.adoc[leveloffset=+1]

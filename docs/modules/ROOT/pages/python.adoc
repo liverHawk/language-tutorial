@@ -1,0 +1,94 @@
+= Python チュートリアル
+
+- 登場年: 1991
+- 得意なこと: 読みやすさと汎用性。AI・データ分析・Web・自動化まで幅広い
+- 公式サイト: https://www.python.org/
+- 難易度目安: ★1
+
+== 0. この言語について
+文法がシンプルで読みやすく、初学者に最も勧められる言語の一つ。ライブラリが豊富で、データ分析やAI、Webのサーバー側、作業の自動化など用途が広い。
+
+== 1. Hello World と実行方法
+python.org からインストールし、ファイル `hello.py` を作って `python hello.py` で実行する。
+
+[source,python]
+----
+print("Hello, World!")
+----
+
+== 2. 変数と型
+変数に型宣言は不要。代入する値で型が決まる。
+
+[source,python]
+----
+name = "Ayane"   # 文字列
+count = 3        # 整数
+ratio = 0.5      # 小数
+print(name, count, ratio)
+----
+
+== 3. 条件分岐と繰り返し
+インデント（字下げ）がブロックを表すのが特徴。
+
+[source,python]
+----
+for i in range(1, 4):
+    if i % 2 == 0:
+        print(i, "は偶数")
+    else:
+        print(i, "は奇数")
+----
+
+== 4. 関数
+`def` で定義する。
+
+[source,python]
+----
+def greet(name):
+    return f"こんにちは、{name}さん"
+
+print(greet("Ayane"))
+----
+
+== 5. コレクション
+リストと辞書が基本。
+
+[source,python]
+----
+langs = ["Python", "Rust", "Go"]       # リスト
+langs.append("Zig")
+
+years = {"Python": 1991, "Rust": 2010} # 辞書
+print(langs)
+print(years["Python"])
+----
+
+== 6. エラー処理
+`try` / `except` で例外を捕まえる。
+
+[source,python]
+----
+try:
+    print(10 / 0)
+except ZeroDivisionError:
+    print("0では割れません")
+----
+
+== 7. 仕上げ: FizzBuzz
+1から15まで、3の倍数で Fizz、5の倍数で Buzz、両方で FizzBuzz と表示する。
+
+[source,python]
+----
+for i in range(1, 16):
+    if i % 15 == 0:
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i)
+----
+
+== 次に読むもの
+- 公式チュートリアル: https://docs.python.org/ja/3/tutorial/

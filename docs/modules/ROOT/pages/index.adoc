@@ -1,0 +1,56 @@
+= すべてのプログラミング言語のチュートリアル
+
+すべてのプログラミング言語のチュートリアルを目指すリポジトリ。
+
+いきなり全部を同じ深さでは書かず、3段階で育てています。
+
+* *Tier C（紹介）:* 全言語を1ページで紹介する（言語一覧が土台）
+* *Tier B（ミニ）:* Hello World＋変数・制御構文・関数までの共通章
+* *Tier A（しっかり）:* コレクション・エラー処理・小プロジェクトまで
+
+章立ては全言語共通です（xref:template.adoc[テンプレート]）。
+仕上げ課題も全言語でそろえています（FizzBuzz → 数当て → 簡易ToDo）。
+
+== 収録状況（31言語）
+
+[cols="1,1"]
+|===
+| 言語 | 状態
+| xref:bqn.adoc[BQN] | Hello Worldまで
+| xref:c.adoc[C] | Hello Worldまで
+| xref:cpp.adoc[C++] | Hello Worldまで
+| xref:crystal.adoc[Crystal] | Hello Worldまで
+| xref:csharp.adoc[C#] | Hello Worldまで
+| xref:dart.adoc[Dart] | Hello Worldまで
+| xref:gleam.adoc[Gleam] | Hello Worldまで
+| xref:go.adoc[Go] | Hello Worldまで
+| xref:grain.adoc[Grain] | Hello Worldまで
+| xref:haskell.adoc[Haskell] | Hello Worldまで
+| xref:hylo.adoc[Hylo] | Hello Worldまで
+| xref:jakt.adoc[Jakt] | Hello Worldまで
+| xref:java.adoc[Java] | Hello Worldまで
+| xref:javascript.adoc[JavaScript] | 完成（見本）
+| xref:julia.adoc[Julia] | Hello Worldまで
+| xref:kotlin.adoc[Kotlin] | Hello Worldまで
+| xref:lua.adoc[Lua] | Hello Worldまで
+| xref:mojo.adoc[Mojo] | Hello Worldまで
+| xref:nim.adoc[Nim] | Hello Worldまで
+| xref:odin.adoc[Odin] | Hello Worldまで
+| xref:php.adoc[PHP] | Hello Worldまで
+| xref:python.adoc[Python] | 完成（見本）
+| xref:r.adoc[R] | Hello Worldまで
+| xref:ruby.adoc[Ruby] | Hello Worldまで
+| xref:rust.adoc[Rust] | Hello Worldまで
+| xref:scala.adoc[Scala] | Hello Worldまで
+| xref:swift.adoc[Swift] | Hello Worldまで
+| xref:typescript.adoc[TypeScript] | Hello Worldまで
+| xref:uiua.adoc[Uiua] | Hello Worldまで
+| xref:v.adoc[V] | Hello Worldまで
+| xref:zig.adoc[Zig] | Hello Worldまで
+|===
+
+残りの言語（225言語以上の一覧が手元にあります）も、同じ型で順次追加していきます。
+
+== ライセンス
+
+MIT

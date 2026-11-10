@@ -1,0 +1,12 @@
+{
+  "name": "language-tutorial-docs",
+  "private": true,
+  "devDependencies": {
+    "@antora/cli": "^3.1.0",
+    "@antora/site-generator": "^3.1.0"
+  },
+  "scripts": {
+    "docs": "antora antora-playbook.yml",
+    "epub": "asciidoctor-epub3 -D build/epub docs/book.adoc"
+  }
+}

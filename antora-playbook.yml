@@ -1,0 +1,12 @@
+site:
+  title: すべてのプログラミング言語のチュートリアル
+  url: https://liverhawk.github.io/language-tutorial/
+  start_page: language-tutorial::index.adoc
+content:
+  sources:
+    - url: .
+      start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true

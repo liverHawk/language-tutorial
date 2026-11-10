@@ -1,0 +1,5 @@
+name: language-tutorial
+version: ~
+title: すべてのプログラミング言語のチュートリアル
+nav:
+  - modules/ROOT/nav.adoc
